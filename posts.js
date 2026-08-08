@@ -23,6 +23,6 @@ const profile = {
   displayName: "김윤식",
   bio: "인스타 아카이브 사이트입니다.",
   avatar: "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/profile.jpg.jpg",
-  followers: "518만",
-  following: "0"
+  followers: "1.2만",
+  following: "320"
 };

@@ -7,12 +7,12 @@ const posts = [
     date: "2021.12.25"
   },
 {
-    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-12-2.JPEG"],
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-12-02.JPEG"],
     caption: "오늘도 9시 볼륨을높여요🔥\n#볼륨을높여요 #kbs",
     date: "2021.12.02"
   },
     {
-    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-11-26.MP4"],
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-11-26.2.MP4"],
     caption: "댄싱머신",
     date: "2021.11.26"
   },

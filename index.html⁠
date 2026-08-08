@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>인스타그램 아카이브</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #fafafa; color: #262626; display: flex; justify-content: center; }
+    .container { width: 100%; max-width: 935px; padding: 30px 20px; }
+    
+    /* 프로필 영역 */
+    .profile-header { display: flex; align-items: center; margin-bottom: 40px; padding-bottom: 20px; border-bottom: 1px solid #dbdbdb; }
+    .profile-pic { width: 150px; height: 150px; border-radius: 50%; background-color: #efefef; margin-right: 30px; flex-shrink: 0; overflow: hidden; }
+    .profile-pic img { width: 100%; height: 100%; object-fit: cover; }
+    .profile-info h1 { font-size: 28px; font-weight: 300; margin-bottom: 15px; }
+    .profile-stats { display: flex; gap: 30px; margin-bottom: 15px; font-size: 16px; }
+    .profile-bio { font-size: 14px; line-height: 1.5; font-weight: 600; }
+
+    /* 3열 그리드 피드 */
+    .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+    .gallery-item { position: relative; width: 100%; padding-top: 100%; background-color: #efefef; cursor: pointer; overflow: hidden; }
+    .gallery-item img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 0.2s; }
+    .gallery-item:hover img { transform: scale(1.03); }
+
+    /* 모달 팝업 창 */
+    .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); justify-content: center; align-items: center; z-index: 1000; }
+    .modal.active { display: flex; }
+    .modal-content { background: #fff; max-width: 600px; width: 90%; border-radius: 8px; overflow: hidden; position: relative; }
+    .modal-content img { width: 100%; max-height: 70vh; object-fit: contain; background: #000; }
+    .modal-close { position: absolute; top: 10px; right: 15px; font-size: 28px; font-weight: bold; color: #fff; cursor: pointer; text-shadow: 0 0 5px rgba(0,0,0,0.5); }
+    
+    @media (max-width: 735px) {
+      .gallery-grid { gap: 3px; }
+      .profile-pic { width: 80px; height: 80px; margin-right: 15px; }
+      .profile-info h1 { font-size: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="profile-header">
+      <div class="profile-pic">
+        <img src="https://via.placeholder.com/150" alt="프로필">
+      </div>
+      <div class="profile-info">
+        <h1>kimyoonsik_</h1>
+        <div class="profile-stats">
+          <span>게시물 <strong>3</strong></span>
+          <span>팔로워 <strong>100</strong></span>
+          <span>팔로잉 <strong>100</strong></span>
+        </div>
+        <div class="profile-bio">김윤식 인스타 아카이브</div>
+      </div>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item" onclick="openModal('https://via.placeholder.com/600/92c953')">
+        <img src="https://via.placeholder.com/600/92c953" alt="1">
+      </div>
+      <div class="gallery-item" onclick="openModal('https://via.placeholder.com/600/771796')">
+        <img src="https://via.placeholder.com/600/771796" alt="2">
+      </div>
+      <div class="gallery-item" onclick="openModal('https://via.placeholder.com/600/24f355')">
+        <img src="https://via.placeholder.com/600/24f355" alt="3">
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="imageModal" onclick="closeModal()">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <span class="modal-close" onclick="closeModal()">&times;</span>
+      <img id="modalImg" src="" alt="확대">
+    </div>
+  </div>
+
+  <script>
+    function openModal(src) {
+      document.getElementById('modalImg').src = src;
+      document.getElementById('imageModal').classList.add('active');
+    }
+    function closeModal() {
+      document.getElementById('imageModal').classList.remove('active');
+    }
+  </script>
+</body>
+</html>

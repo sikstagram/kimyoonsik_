@@ -1,10 +1,10 @@
 const posts = [
   {
-    items: ["kimyoonsik_2019-08-15.mp4"],
+    items: ["kimyoonsik_2019-08-15.MP4"],
     caption: "첫 번째 영상"
   },
   {
-    items: ["kimyoonsik_2019-09-10.mp4"],
+    items: ["kimyoonsik_2019-09-10.MP4"],
     caption: "두 번째 영상"
   }
 ];

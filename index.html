@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Actor Archive</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- 상단 네비게이션 (인스타그램 스타일) -->
+  <header class="top-nav">
+    <div class="nav-inner">
+      <div class="logo">Archive</div>
+      <div class="nav-icons">
+        <button id="theme-toggle" title="다크모드 전환">🌓</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- 프로필 영역 -->
+    <section class="profile">
+      <div class="profile-pic-wrapper">
+        <!-- 여기에 배우 프로필 사진을 넣으세요 (images/profile.jpg) -->
+        <img src="images/profile.jpg" alt="프로필" class="profile-pic" id="profile-pic"
+             onerror="this.src='https://via.placeholder.com/150/1a1a1a/ffffff?text=Profile'">
+      </div>
+      <div class="profile-info">
+        <div class="profile-header">
+          <h1 class="username" id="username">actor_name</h1>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <span class="stat-num" id="post-count">0</span>
+            <span class="stat-label">게시물</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">—</span>
+            <span class="stat-label">팔로워</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">—</span>
+            <span class="stat-label">팔로잉</span>
+          </div>
+        </div>
+        <div class="bio">
+          <p class="name" id="display-name">좋아하는 배우</p>
+          <p class="bio-text" id="bio-text">직접 모아둔 개인 아카이브입니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 구분선 -->
+    <div class="divider"></div>
+
+    <!-- 게시물 그리드 -->
+    <section class="posts-grid" id="posts-grid">
+      <!-- 자바스크립트로 게시물이 여기에 생성됩니다 -->
+    </section>
+
+    <!-- 게시물이 없을 때 -->
+    <div class="empty-state" id="empty-state" style="display: none;">
+      <p>아직 게시물이 없습니다.</p>
+      <p class="hint">images 폴더에 사진을 넣고<br>js/posts.js 파일을 수정해주세요.</p>
+    </div>
+  </main>
+
+  <!-- 라이트박스 (클릭해서 크게 보기) -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close">&times;</button>
+    <button class="lightbox-prev" id="lightbox-prev">‹</button>
+    <button class="lightbox-next" id="lightbox-next">›</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="">
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <script src="js/posts.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

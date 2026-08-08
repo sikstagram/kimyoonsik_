@@ -10,7 +10,7 @@ const posts = [
     date: "2019.09.10"
   },
   {
-    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/kimyoonsik_2019-09-17.JPEG"],
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2019-09-17.JPEG"],
     caption: "#vogue",
     date: "2019.09.17"
   }

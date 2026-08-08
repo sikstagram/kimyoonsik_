@@ -10,8 +10,8 @@ const posts = [
   },
     {
     items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-10-13.1.JPEG",
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-10-13.2.JPEG"
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-10-13.3.JPEG"
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-10-13.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-10-13.3.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-10-13.4.JPEG"],
     caption: "5년만👋",
     date: "2020.10.13"

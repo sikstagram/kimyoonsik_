@@ -1,13 +1,6 @@
 function isVideo(src) {
   if (!src) return false;
   const ext = src.split('.').pop().toLowerCase();
-  return ['mp4', 'mov', 'webm', 'ogg', 'jpeg', 'jpg', 'png', 'webp'].includes(ext) === false && 
-         ['mp4', 'mov', 'webm', 'ogg'].includes(ext);
-}
-
-function isVideo(src) {
-  if (!src) return false;
-  const ext = src.split('.').pop().toLowerCase();
   return ['mp4', 'mov', 'webm', 'ogg'].includes(ext);
 }
 

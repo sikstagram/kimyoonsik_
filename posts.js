@@ -1,4 +1,18 @@
 const posts = [
+{
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-02-01.JPEG"],
+    caption: "VOGUE",
+    date: "2020.02.01"
+  },
+  {
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-01-11.JPEG"],
+    date: "2020.01.11"
+  },
+  {
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2019-10-16.JPEG"],
+    caption: "✈️",
+    date: "2019.10.16"
+  },
   {
     items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2019-09-17.JPEG"],
     caption: "#vogue",

@@ -1,6 +1,13 @@
 function isVideo(src) {
   if (!src) return false;
   const ext = src.split('.').pop().toLowerCase();
+  return ['mp4', 'mov', 'webm', 'ogg', 'jpeg', 'jpg', 'png', 'webp'].includes(ext) === false && 
+         ['mp4', 'mov', 'webm', 'ogg'].includes(ext);
+}
+
+function isVideo(src) {
+  if (!src) return false;
+  const ext = src.split('.').pop().toLowerCase();
   return ['mp4', 'mov', 'webm', 'ogg'].includes(ext);
 }
 
@@ -98,35 +105,15 @@ function updateLightbox() {
   if (!post || !post.items || post.items.length === 0) return;
 
   const src = post.items[currentMediaIndex];
-  
-  // 캡션 + 날짜 표시
+
   let captionText = post.caption || '';
   if (post.date) {
     captionText += (captionText ? '\n' : '') + post.date;
   }
   lightboxCaption.textContent = captionText;
-  lightboxCaption.style.whiteSpace = 'pre-line'; // 줄바꿈 되게
+  lightboxCaption.style.whiteSpace = 'pre-line';
 
   lightboxMedia.innerHTML = '';
-
-  if (isVideo(src)) {
-    const video = document.createElement('video');
-    video.src = src;
-    video.controls = true;
-    video.playsInline = true;
-    video.autoplay = true;
-    video.className = 'lightbox-video';
-    lightboxMedia.appendChild(video);
-  } else {
-    const img = document.createElement('img');
-    img.src = src;
-    img.alt = post.caption || '';
-    img.className = 'lightbox-img';
-    lightboxMedia.appendChild(img);
-  }
-
-  renderDots(post.items.length);
-}
 
   if (isVideo(src)) {
     const video = document.createElement('video');

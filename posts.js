@@ -9,6 +9,11 @@ const posts = [
     caption: "MEMORY of JANUARY"
     date: "2019.09.10"
   }
+ {
+    items: ["kimyoonsik_2019-09-17.JPGE"],
+    caption: "#vogue",
+    date: "2019.09.17"
+  }
 ];
 
 const profile = {

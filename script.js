@@ -8,10 +8,21 @@ function getFirstMedia(post) {
   return post.items && post.items.length > 0 ? post.items[0] : null;
 }
 
+// 프로필 정보 적용
 document.getElementById('username').textContent = profile.username;
 document.getElementById('display-name').textContent = profile.displayName;
 document.getElementById('bio-text').textContent = profile.bio;
 document.getElementById('post-count').textContent = posts.length;
+
+if (profile.avatar) {
+  document.getElementById('profile-pic').src = profile.avatar;
+}
+if (profile.followers) {
+  document.getElementById('followers').textContent = profile.followers;
+}
+if (profile.following) {
+  document.getElementById('following').textContent = profile.following;
+}
 
 const grid = document.getElementById('posts-grid');
 const emptyState = document.getElementById('empty-state');
@@ -28,7 +39,21 @@ if (posts.length === 0) {
 
     const first = getFirstMedia(post);
 
-    if (first && isVideo(first)) {
+    // 영상인데 썸네일이 있으면 썸네일 사용
+    if (first && isVideo(first) && post.thumbnail) {
+      const img = document.createElement('img');
+      img.src = post.thumbnail;
+      img.alt = post.caption || `게시물 ${index + 1}`;
+      img.loading = 'lazy';
+      item.appendChild(img);
+
+      const playIcon = document.createElement('div');
+      playIcon.className = 'play-icon';
+      playIcon.innerHTML = '▶';
+      item.appendChild(playIcon);
+    }
+    // 영상인데 썸네일 없으면 기존 방식
+    else if (first && isVideo(first)) {
       const video = document.createElement('video');
       video.src = first;
       video.muted = true;
@@ -42,7 +67,9 @@ if (posts.length === 0) {
 
       item.appendChild(video);
       item.appendChild(playIcon);
-    } else if (first) {
+    }
+    // 사진
+    else if (first) {
       const img = document.createElement('img');
       img.src = first;
       img.alt = post.caption || `게시물 ${index + 1}`;

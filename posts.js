@@ -4,7 +4,7 @@ const posts = [
     date: "2021.01.15"
   },
     {
-    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-12.31.JPEG"],
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-12-31.JPEG"],
     caption: "VOGUE",
     date: "2020.12.31"
   },

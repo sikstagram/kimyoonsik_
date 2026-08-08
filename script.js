@@ -98,9 +98,35 @@ function updateLightbox() {
   if (!post || !post.items || post.items.length === 0) return;
 
   const src = post.items[currentMediaIndex];
-  lightboxCaption.textContent = post.caption || '';
+  
+  // 캡션 + 날짜 표시
+  let captionText = post.caption || '';
+  if (post.date) {
+    captionText += (captionText ? '\n' : '') + post.date;
+  }
+  lightboxCaption.textContent = captionText;
+  lightboxCaption.style.whiteSpace = 'pre-line'; // 줄바꿈 되게
 
   lightboxMedia.innerHTML = '';
+
+  if (isVideo(src)) {
+    const video = document.createElement('video');
+    video.src = src;
+    video.controls = true;
+    video.playsInline = true;
+    video.autoplay = true;
+    video.className = 'lightbox-video';
+    lightboxMedia.appendChild(video);
+  } else {
+    const img = document.createElement('img');
+    img.src = src;
+    img.alt = post.caption || '';
+    img.className = 'lightbox-img';
+    lightboxMedia.appendChild(img);
+  }
+
+  renderDots(post.items.length);
+}
 
   if (isVideo(src)) {
     const video = document.createElement('video');

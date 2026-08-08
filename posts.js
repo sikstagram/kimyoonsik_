@@ -1,5 +1,32 @@
 const posts = [
 {
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-01-15.JPEG"],
+    date: "2021.01.15"
+  },
+    {
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-12.31.JPEG"],
+    caption: "VOGUE",
+    date: "2020.12.31"
+  },
+    {
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-10-13.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-10-13.2.JPEG"
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-10-13.3.JPEG"
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-10-13.4.JPEG"],
+    caption: "5년만👋",
+    date: "2020.10.13"
+  },
+    {
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-04-07.MP4"],
+    caption: "👋",
+    date: "2020.04.07"
+  },
+    {
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-02-06.1.JPEG",
+            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-02-06.2.JPEG"],
+    date: "2020.02.06"
+  },
+    {
     items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2020-02-01.JPEG"],
     caption: "VOGUE",
     date: "2020.02.01"

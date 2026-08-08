@@ -34,8 +34,8 @@ const posts = [
     date: "2021.08.26"
   },
     {
-    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-09-04.1.JPEG",
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-09-04.2.JPEG"],
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-08-04.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-08-04.2.JPEG"],
     caption: "머리를 많이 길렀다",
     date: "2021.08.04"
   },

@@ -8,29 +8,31 @@ function getFirstMedia(post) {
   return post.items && post.items.length > 0 ? post.items[0] : null;
 }
 
-// 프로필 정보 적용
 document.getElementById('username').textContent = profile.username;
 document.getElementById('display-name').textContent = profile.displayName;
 document.getElementById('bio-text').textContent = profile.bio;
 document.getElementById('post-count').textContent = posts.length;
 
 if (profile.avatar) {
-  document.getElementById('profile-pic').src = profile.avatar;
+  const pic = document.getElementById('profile-pic');
+  if (pic) pic.src = profile.avatar;
 }
 if (profile.followers) {
-  document.getElementById('followers').textContent = profile.followers;
+  const el = document.getElementById('followers');
+  if (el) el.textContent = profile.followers;
 }
 if (profile.following) {
-  document.getElementById('following').textContent = profile.following;
+  const el = document.getElementById('following');
+  if (el) el.textContent = profile.following;
 }
 
 const grid = document.getElementById('posts-grid');
 const emptyState = document.getElementById('empty-state');
 
 if (posts.length === 0) {
-  emptyState.style.display = 'block';
+  if (emptyState) emptyState.style.display = 'block';
 } else {
-  emptyState.style.display = 'none';
+  if (emptyState) emptyState.style.display = 'none';
 
   posts.forEach((post, index) => {
     const item = document.createElement('div');
@@ -39,11 +41,10 @@ if (posts.length === 0) {
 
     const first = getFirstMedia(post);
 
-    // 영상인데 썸네일이 있으면 썸네일 사용
     if (first && isVideo(first) && post.thumbnail) {
       const img = document.createElement('img');
       img.src = post.thumbnail;
-      img.alt = post.caption || `게시물 ${index + 1}`;
+      img.alt = post.caption || '';
       img.loading = 'lazy';
       item.appendChild(img);
 
@@ -51,9 +52,7 @@ if (posts.length === 0) {
       playIcon.className = 'play-icon';
       playIcon.innerHTML = '▶';
       item.appendChild(playIcon);
-    }
-    // 영상인데 썸네일 없으면 기존 방식
-    else if (first && isVideo(first)) {
+    } else if (first && isVideo(first)) {
       const video = document.createElement('video');
       video.src = first;
       video.muted = true;
@@ -67,12 +66,10 @@ if (posts.length === 0) {
 
       item.appendChild(video);
       item.appendChild(playIcon);
-    }
-    // 사진
-    else if (first) {
+    } else if (first) {
       const img = document.createElement('img');
       img.src = first;
-      img.alt = post.caption || `게시물 ${index + 1}`;
+      img.alt = post.caption || '';
       img.loading = 'lazy';
       img.onerror = function () {
         this.style.background = '#333';
@@ -155,6 +152,7 @@ function updateLightbox() {
 }
 
 function renderDots(count) {
+  if (!dotsContainer) return;
   dotsContainer.innerHTML = '';
   if (count <= 1) return;
 
@@ -216,19 +214,19 @@ lightbox.addEventListener('touchend', (e) => {
 }, { passive: true });
 
 const themeToggle = document.getElementById('theme-toggle');
-const savedTheme = localStorage.getItem('theme') || 'light';
-
-if (savedTheme === 'dark') {
-  document.documentElement.setAttribute('data-theme', 'dark');
-}
-
-themeToggle.addEventListener('click', () => {
-  const current = document.documentElement.getAttribute('data-theme');
-  if (current === 'dark') {
-    document.documentElement.removeAttribute('data-theme');
-    localStorage.setItem('theme', 'light');
-  } else {
+if (themeToggle) {
+  const savedTheme = localStorage.getItem('theme') || 'light';
+  if (savedTheme === 'dark') {
     document.documentElement.setAttribute('data-theme', 'dark');
-    localStorage.setItem('theme', 'dark');
   }
-});
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    if (current === 'dark') {
+      document.documentElement.removeAttribute('data-theme');
+      localStorage.setItem('theme', 'light');
+    } else {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      localStorage.setItem('theme', 'dark');
+    }
+  });
+}

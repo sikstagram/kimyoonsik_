@@ -8,8 +8,7 @@ const posts = [
   },
 {
     items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-12-2.JPEG"],
-    caption: "오늘도 9시 볼륨을높여요🔥
-        #볼륨을높여요 #kbs",
+    caption: "오늘도 9시 볼륨을높여요🔥\n#볼륨을높여요 #kbs",
     date: "2021.12.02"
   },
     {
@@ -20,8 +19,7 @@ const posts = [
     {
     items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-11-12.1.MP4",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-11-12.2.JPEG"],
-    caption: "U+디즈니👍
-        #디즈니",
+    caption: "U+디즈니👍\n#디즈니",
     date: "2021.11.12"
   },
     {
@@ -32,8 +30,7 @@ const posts = [
     {
     items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-08-26.1.MP4",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-08-26.2.MP4"],
-    caption: "👋
-        #슬기로운의사생활시즌2",
+    caption: "👋\n#슬기로운의사생활시즌2",
     date: "2021.08.26"
   },
     {
@@ -43,15 +40,8 @@ const posts = [
     date: "2021.08.04"
   },
     {
-    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-07-08.1.JPEG"],
-    caption: "VOGUE",
-    date: "2021.07.08"
-  },
-    {
     items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-07-16.MP4"],
-    caption: "교감중
-        
-        일방적인",
+    caption: "교감중\n\n일방적인",
     date: "2021.07.16"
   },
     {
@@ -61,15 +51,7 @@ const posts = [
     {
     items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-07-08.1.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-07-08.2.JPEG"],
-    caption: "안녕하세요 윤도건입니다😊
-        
-        약 한달간 정말 많은 분들께서 카페와 회사를 통해 많은 선물과 편지를 전해 주셨습니다..❤️
-    
-정말 과분한 사랑에 감사하기도하고 죄송한 마음도 큰거같습니다^^
-    
-    한분한분 선물 인증을 해드리고싶었지만..(흑흑) 그러지 못한점은 정말 죄송합니다😭 하지만 정성들여 준비하신 선물과, 편지, 마음까지(❤️) 깊이 감사하고있습니다><
-    
-    더 좋은 모습보여드릴수있는 배우 되도록 노력하겠습니다! 감사합니다❤️",
+    caption: "안녕하세요 윤도건입니다😊\n\n약 한달간 정말 많은 분들께서 카페와 회사를 통해 많은 선물과 편지를 전해 주셨습니다..❤️\n\n정말 과분한 사랑에 감사하기도하고 죄송한 마음도 큰거같습니다^^\n\n한분한분 선물 인증을 해드리고싶었지만..(흑흑) 그러지 못한점은 정말 죄송합니다😭 하지만 정성들여 준비하신 선물과, 편지, 마음까지(❤️) 깊이 감사하고있습니다><\n\n더 좋은 모습보여드릴수있는 배우 되도록 노력하겠습니다! 감사합니다❤️",
     date: "2021.07.08"
   },
     {

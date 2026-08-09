@@ -35,10 +35,10 @@ const posts = [
     date: "2022.08.04"
   },
     {
-    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-07-28.1.JPGE",
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-07-28.1.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-07-28.2.JPEG",
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-07-28.3.JPGE",
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-07-28.4.JPGE"],
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-07-28.3.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-07-28.4.JPEG"],
     caption: "옌디와 함께하는 볼륨 막방☺️ 수고 많으셨어요~~~ @volumeup891 @__shinyeeun @rilaccoco",
     date: "2022.07.28"
   },

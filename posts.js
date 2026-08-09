@@ -1,5 +1,31 @@
 const posts = [
 {
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-01-18.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-01-18.2.JPEG"],
+    caption: "KT YF에서 주신 선물🎁\n\n오늘 저녁 '주미다했다' 5화! 많은 관심 부탁해요☺️\n#주미다했다 #y스튜디오",
+    date: "2022.01.18"
+  },
+    {
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-01-17.1.MP4",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-01-17.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-01-17.3.JPEG"],
+    caption: "✌️\n#볼륨을높여요",
+    date: "2022.01.17"
+  },
+    {
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-01-16.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-01-16.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-01-16.3.JPEG"],
+    caption: "😽",
+    date: "2022.01.16"
+  },
+    {
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-01-11.1.MP4",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-01-11.2.JPEG"],
+    caption: "오늘 저녁 '주미다했다' 3화",
+    date: "2022.01.11"
+  },
+    {
     items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-12-25.1.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-12-25.2.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-12-25.3.JPEG"],

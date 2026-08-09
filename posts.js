@@ -7,14 +7,16 @@ const posts = [
     {
     items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-12-24.1.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-12-24.2.JPEG",
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-12-24.2.JPEG",
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-12-24.2.JPEG",
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-12-24.3.JPEG"],
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-12-24.3.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-12-24.4.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-12-24.5.JPEG"
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-12-24.6.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-12-24.7.MP4",],
     date: "2022.12.24"
   },
     {
-    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-10-23.1.JPEG",
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-10-23.2.JPEG"],
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-10-23.1.MP4",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-10-23.2.MP4"],
     date: "2022.10.23"
   },
     {

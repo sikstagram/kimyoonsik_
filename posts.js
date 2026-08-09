@@ -17,8 +17,8 @@ const posts = [
     date: "2021.11.26"
   },
     {
-    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-11-12.1.JPEG",
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-11-12.2.MP4"],
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-11-12.1.MP4",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2021-11-12.2.JPEG"],
     caption: "U+디즈니👍\n#디즈니",
     date: "2021.11.12"
   },

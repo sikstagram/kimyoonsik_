@@ -1,5 +1,58 @@
 const posts = [
-{
+ {
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-12-25.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-12-25.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-12-25.3.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-12-25.4.MP4",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-12-25.5.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-12-25.6.JPEG"],
+    caption: 🎄🎄",
+    date: "2024.12.25"
+  },
+    {
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-12-09.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-12-09.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-12-09.3.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-12-09.4.JPEG"],
+    caption: "🔥",
+    date: "2024.12.09"
+  },
+    {   
+     items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-12-08.1.JPEG",
+            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-12-08.2.JPEG",
+            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-12-08.3.JPEG"],
+    date: "2024.12.08"
+  },
+   {
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-11-25.MP4"],
+    caption: "바보",
+    date: "2024.11.25"
+  },
+    {
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-09-25.1.JPEG",
+            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-09-25.2.JPEG",
+            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-09-25.3.JPEG"],
+    date: "2024.09.25"
+},
+    {
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-09-20.1.JPEG",
+            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-09-20.2.JPEG"],
+    date: "2024.09.20"
+  },
+    {
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-04-03.1.JPEG",
+            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-04-03.2.JPEG",
+            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-04-03.3.JPEG",
+            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-04-03.4.JPEG",
+            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-04-03.5.JPEG"],
+    date: "2024.04.03"
+  },
+    {
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-04-02.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-04-02.2.JPEG"],
+    date: "2024.04.02"
+  },
+    {
     items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2023-11-21.JPEG"],
     date: "2023.11.21"
   },

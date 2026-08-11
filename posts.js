@@ -6,7 +6,7 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-12-25.4.MP4",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-12-25.5.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-12-25.6.JPEG"],
-    caption: 🎄🎄",
+    caption: "🎄🎄",
     date: "2024.12.25"
   },
     {
@@ -24,7 +24,7 @@ const posts = [
     date: "2024.12.08"
   },
    {
-    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-11-25.MP4"],
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2024-11-25.2.MP4"],
     caption: "바보",
     date: "2024.11.25"
   },

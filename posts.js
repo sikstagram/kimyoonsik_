@@ -80,9 +80,9 @@ const posts = [
     date: "2023.08.28"
   },
     {
-    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-07-21.1.JPEG",
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-07-21.2.JPEG",
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2022-07-21.3.JPEG"],
+    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2023-07-21.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2023-07-21.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2023-07-21.3.JPEG"],
     date: "2023.07.21"
   },
     {

@@ -1,7 +1,7 @@
 const posts = [
 { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2025-07-22.1.JPEG",
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2025-07-22.2.JPEG"
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2025-07-22.2.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2025-07-22.3.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2025-07-22.4.JPEG"],
     date: "2025.07.22"

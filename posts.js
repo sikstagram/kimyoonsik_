@@ -6,7 +6,7 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-05-22.4.JPEG"],
    caption: "♥️♥️♥️♥️♥️",
    date: "2026.05.22"
- }
+ },
    { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-05-19.1.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-05-19.2.MP4",
@@ -21,15 +21,15 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-05-19.11.JPEG"],
    caption: "유난히 많은 축하를 받은 20대 마지막 생일이었습니다♥️ 축하해 주신 모든 분들 정말 감사합니다🎉",
    date: "2026.05.19"
- }
+ },
    { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-04-23.1.MP4",
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-04-23.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-04-23.2.JPEG", 
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-04-23.3.MP4",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-04-23.4.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-04-23.5.MP4"],
    date: "2026.04.23"
- }
+ },
    { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-04-10.1.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-04-10.2.JPEG",
@@ -38,14 +38,14 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-04-10.5.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-04-10.6.JPEG"],
    date: "2026.04.10"
- }
+ },
    { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-03-09.1.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-03-09.2.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-03-09.3.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-03-09.4.JPEG"],
    date: "2026.03.09"
- }
+ },
    { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-02-17.1.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-02-17.2.JPEG",
@@ -56,7 +56,7 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-02-17.7.JPEG"],
    caption: "새해 복 많이 받으세요💕",
    date: "2026.02.17"
- }
+ },
    { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-01-23.1.MP4",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-01-23.2.JPEG",
@@ -67,14 +67,14 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-01-23.7.MP4"],
    caption: "🐣",
    date: "2026.01.23"
- }
+ },
    { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-01-15.1.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-01-15.2.MP4",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-01-15.3.MP4",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-01-15.4.JPEG"],
     date: "2026.01.15"
- }
+ },
    { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2025-11-27.1.JPEG",
           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2025-11-27.2.JPEG",
@@ -82,7 +82,7 @@ const posts = [
           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2025-11-27.4.JPEG",
           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2025-11-27.5.JPEG"],
     date: "2025.11.27"
- }
+ },
    { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2025-11-12.1.JPEG",
           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2025-11-12.2.JPEG"],

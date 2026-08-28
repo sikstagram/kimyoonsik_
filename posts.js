@@ -1,5 +1,121 @@
 const posts = [
-{ 
+  { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-25.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-25.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-25.3.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-25.4.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-25.5.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-25.6.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-25.7.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-25.8.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-25.9.JPEG"],
+   caption: "미공개 사진📸",
+   date: "2026.07.25"
+  },
+   { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-24.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-24.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-24.3.JPEG"],
+   caption: "검사실의 제안이 막을 내렸습니다.\n\n제 진심이 많은 분들께 전해진 것 같아 정말 행복합니다😽 보내주신 많은 사랑과 응원에 진심으로 감사드립니다.\n\n주태선을 만날 수 있어서 정말 행복했고, 감사한 마음으로 연기할 수 있었습니다.\n\n이 작품을 통해 저 역시 많이 배우고 성장할 수 있었고, 오래도록 소중한 기억으로 남을 것 같습니다.\n\n매주 함께해 주신 시간과 보내주신 따뜻한 마음들 절대 잊지 않겠습니다.\n\n앞으로도 더 좋은 작품과 더 좋은 연기로 인사드릴 수 있도록 항상 노력하겠습니다.\n\n'검사실의 제안'을 사랑해주셔서 진심으로 감사합니다♥️",
+   date: "2026.07.24"
+ },
+   { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-20.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-20.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-20.3.MP4"],
+   caption: "✨",
+   date: "2026.07.20"
+ },
+   { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-18.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-18.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-18.3.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-18.4.JPEG"],
+   caption: "🤍",
+   date: "2026.07.18"
+ },
+   { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-16.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-16.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-16.3.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-16.4.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-16.5.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-16.6.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-16.7.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-16.8.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-16.9.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-16.10.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-16.11.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-16.12.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-16.13.JPEG"],
+   caption: "LOADING MAGAZINE 많은 사랑 감사합니다♥️",
+   date: "2026.07.16"
+ },
+   { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-14.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-14.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-14.3.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-14.4.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-14.5.JPEG"],
+   caption: "고기는 최고..😽",
+   date: "2026.07.14"
+ },
+   { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-13.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-13.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-13.3.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-13.4.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-13.5.MP4"],
+   caption: "😽",
+   date: "2026.07.13"
+ },
+   { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-02.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-02.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-02.3.JPEG"],
+   caption: "1 VS 2 VS 3",
+   date: "2026.07.08"
+ },
+   { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-02.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-02.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-02.3.JPEG"],
+   caption: "사진 잘 찍는 이주임😽 @parksiwooo_",
+   date: "2026.07.02"
+ },
+   { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-06-30.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-06-30.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-06-30.3.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-06-30.4.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-06-30.5.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-06-30.6.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-06-30.7.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-06-30.8.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-06-30.9.JPEG"],
+   caption: "너무너무 추웠던 1,2화 🥶",
+   date: "2026.06.30"
+ },
+   { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-06-28.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-06-28.2.JPEG"],
+   caption: "채하랑😽🙉",
+   date: "2026.06.28"
+ },
+    { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-06-25.1.JPEG"
+          "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-06-25.2.JPEG",
+          "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-06-25.3.JPEG",
+          "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-06-25.4.JPEG"],
+   caption: "6월26일~7월31일 <검사실의 제안> 포토이즘 프레임이 출시됩니다! 많관부😽 @photoism.kr",
+   date: "2026.06.25"
+ },
+    { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-06-25.JPEG"],
+   caption: "드디어 내일, <검사실의 제안>이 웨이브에서 공개됩니다.\n\n저에게는 큰 도전이기도 했던 작품이 드디어 공개된다고 생각하니 설레기도 하고, 한편으로는 걱정도 되네요☺️\n\n많은 고민과 노력, 그리고 진심을 담아 만든 작품인 만큼 따뜻한 관심과 응원 부탁드립니다. 🔥\n\n내일 웨이브에서 만나요! @wavve.official",
+   date: "2026.06.25"
+ },
+   { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-05-22.1.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-05-22.2.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-05-22.3.JPEG",

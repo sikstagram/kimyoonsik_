@@ -1,4 +1,101 @@
 const posts = [
+ 
+ { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-09.1.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-09.2.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-09.3.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-09.4.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-09.5.JPEG]
+   caption: "곧 만나👋 等会见",
+   date: "2026.08.09"
+  },
+{ 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-07.MP4]
+   caption: "예쁜 쿠키🍪🧸",
+   date: "2026.08.07"
+ },
+{ 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-07.1.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-07.2.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-07.3.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-07.4.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-07.5.JPEG]
+   caption: "MOOEKISS 비하인드🖤💕",
+   date: "2026.08.07"
+ },
+ { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-05.1.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-05.2.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-05.3.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-05.4.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-05.5.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-05.6.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-05.7.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-05.8.JPEG]
+   caption: "피가로 @madamefigarochina",
+   date: "2026.08.05"
+ },
+ { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-03.1.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-03.2.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-03.3.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-03.4.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-03.5.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-03.6.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-03.7.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-03.8.JPEG]
+    caption: "LOADING MAGAZINE",
+    date: "2026.08.03"
+ },
+ { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-02.1.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-02.2.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-02.3.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-02.4.JPEG]
+   date: "2026.08.02"
+ },
+ { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-29.1.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-29.2.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-29.3.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-29.4.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-29.5.JPEG]
+   date: "2026.07.29"
+ },
+ { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.1.1.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.2.1.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.3.1.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.4.1.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.5.1.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.6.1.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.7.1.JPEG]
+   date: "2026.07.26"
+ },
+ { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.1.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.2.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.3.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.4.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.5.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.6.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.7.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.8.JPEG,
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.9.JPEG],
+   caption: "When every thought and feeling within me is quietly caught, tenderly held, and gently answered—I know, then, what it truly means to have someone by my side. So, how to capture and preserve such a precious feeling of connection?\n\nDriven by this thought, @parksiwooo_ and I are so happy to join our dear friend @snackpaper_official in their co-creation platform #SnackPaperCoLab .
+Through launching the Y&S sub-brand, we hope to capture, share, and carry forward the story of our companionship—together, always, forever…\n\nAnd when I say “one shot,” I mean that I want to have 「One Shot」  of love with you 🍫🍪🍬",
+   date: "2026.07.26"
+ },
+ { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-24.1.1.MP4],
+   caption: "어디서 들었는데.. 제가 챱츄에요?!😽",
+   date: "2026.07.24"
+ },
+ { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-27.MP4],
+   caption: "🧸",
+   date: "2026.07.27"
+ },
  { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-24.1.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-24.2.JPEG",

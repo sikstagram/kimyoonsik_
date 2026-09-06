@@ -1,5 +1,4 @@
 const posts = [
- 
  { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-09.1.JPEG,
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-09.2.JPEG,
@@ -82,12 +81,11 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.7.JPEG,
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.8.JPEG,
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.9.JPEG],
-   caption: "When every thought and feeling within me is quietly caught, tenderly held, and gently answered—I know, then, what it truly means to have someone by my side. So, how to capture and preserve such a precious feeling of connection?\n\nDriven by this thought, @parksiwooo_ and I are so happy to join our dear friend @snackpaper_official in their co-creation platform #SnackPaperCoLab .
-Through launching the Y&S sub-brand, we hope to capture, share, and carry forward the story of our companionship—together, always, forever…\n\nAnd when I say “one shot,” I mean that I want to have 「One Shot」  of love with you 🍫🍪🍬",
+   caption: "When every thought and feeling within me is quietly caught, tenderly held, and gently answered—I know, then, what it truly means to have someone by my side. So, how to capture and preserve such a precious feeling of connection?\n\nDriven by this thought, @parksiwooo_ and I are so happy to join our dear friend @snackpaper_official in their co-creation platform #SnackPaperCoLab . Through launching the Y&S sub-brand, we hope to capture, share, and carry forward the story of our companionship—together, always, forever…\n\nAnd when I say “one shot,” I mean that I want to have 「One Shot」  of love with you 🍫🍪🍬",
    date: "2026.07.26"
  },
  { 
-   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-24.1.1.MP4],
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-24.MP4],
    caption: "어디서 들었는데.. 제가 챱츄에요?!😽",
    date: "2026.07.24"
  },

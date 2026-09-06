@@ -4,12 +4,12 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-09.2.JPEG,
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-09.3.JPEG,
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-09.4.JPEG,
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-09.5.JPEG]
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-09.5.JPEG],
    caption: "곧 만나👋 等会见",
    date: "2026.08.09"
   },
 { 
-   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-07.MP4]
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-07.MP4],
    caption: "예쁜 쿠키🍪🧸",
    date: "2026.08.07"
  },
@@ -18,7 +18,7 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-07.2.JPEG,
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-07.3.JPEG,
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-07.4.JPEG,
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-07.5.JPEG]
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-07.5.JPEG],
    caption: "MOOEKISS 비하인드🖤💕",
    date: "2026.08.07"
  },
@@ -30,7 +30,7 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-05.5.JPEG,
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-05.6.JPEG,
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-05.7.JPEG,
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-05.8.JPEG]
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-05.8.JPEG],
    caption: "피가로 @madamefigarochina",
    date: "2026.08.05"
  },
@@ -42,7 +42,7 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-03.5.JPEG,
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-03.6.JPEG,
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-03.7.JPEG,
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-03.8.JPEG]
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-03.8.JPEG],
     caption: "LOADING MAGAZINE",
     date: "2026.08.03"
  },
@@ -50,7 +50,7 @@ const posts = [
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-02.1.JPEG,
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-02.2.JPEG,
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-02.3.JPEG,
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-02.4.JPEG]
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-02.4.JPEG],
    date: "2026.08.02"
  },
  { 
@@ -58,7 +58,7 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-29.2.JPEG,
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-29.3.JPEG,
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-29.4.JPEG,
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-29.5.JPEG]
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-29.5.JPEG],
    date: "2026.07.29"
  },
  { 
@@ -68,7 +68,7 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.4.1.JPEG,
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.5.1.JPEG,
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.6.1.JPEG,
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.7.1.JPEG]
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-07-26.7.1.JPEG],
    date: "2026.07.26"
  },
  { 

@@ -360,3 +360,28 @@ body {
     gap: 2px;
   }
 }
+.lightbox-counter {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+.lightbox-dots {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.lightbox-dots .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.35);
+}
+
+.lightbox-dots .dot.active {
+  background: #fff;
+}

@@ -147,7 +147,15 @@ function updateLightbox() {
     img.className = 'lightbox-img';
     lightboxMedia.appendChild(img);
   }
-
+const counter = document.getElementById('lightbox-counter');
+if (counter) {
+  if (post.items.length > 1) {
+    counter.textContent = (currentMediaIndex + 1) + ' / ' + post.items.length;
+    counter.style.display = 'block';
+  } else {
+    counter.style.display = 'none';
+  }
+}
   renderDots(post.items.length);
 }
 

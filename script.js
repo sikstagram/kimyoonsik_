@@ -147,21 +147,24 @@ function updateLightbox() {
     img.className = 'lightbox-img';
     lightboxMedia.appendChild(img);
   }
-    if (post.music) {
+
+  if (post.music) {
     const badge = document.createElement('div');
     badge.className = 'lightbox-music';
     badge.textContent = '🎵 ' + post.music;
     lightboxMedia.appendChild(badge);
   }
-const counter = document.getElementById('lightbox-counter');
-if (counter) {
-  if (post.items.length > 1) {
-    counter.textContent = (currentMediaIndex + 1) + ' / ' + post.items.length;
-    counter.style.display = 'block';
-  } else {
-    counter.style.display = 'none';
+
+  const counter = document.getElementById('lightbox-counter');
+  if (counter) {
+    if (post.items.length > 1) {
+      counter.textContent = (currentMediaIndex + 1) + ' / ' + post.items.length;
+      counter.style.display = 'block';
+    } else {
+      counter.style.display = 'none';
+    }
   }
-}
+
   renderDots(post.items.length);
 }
 

@@ -149,9 +149,23 @@ function updateLightbox() {
   }
 
   if (post.music) {
+    captionText = '🎵 ' + post.music + (captionText ? '\n\n' + captionText : '');
+    lightboxCaption.textContent = captionText;
+
     const badge = document.createElement('div');
     badge.className = 'lightbox-music';
     badge.textContent = '🎵 ' + post.music;
+    badge.style.position = 'absolute';
+    badge.style.top = '12px';
+    badge.style.left = '12px';
+    badge.style.zIndex = '20';
+    badge.style.color = '#fff';
+    badge.style.background = 'rgba(0,0,0,0.65)';
+    badge.style.padding = '6px 10px';
+    badge.style.borderRadius = '999px';
+    badge.style.fontSize = '13px';
+    badge.style.fontWeight = '600';
+    badge.style.maxWidth = '80%';
     lightboxMedia.appendChild(badge);
   }
 

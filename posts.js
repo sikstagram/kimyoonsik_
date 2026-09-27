@@ -7,7 +7,8 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-29.4.1.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-29.5.1.JPEG"],
    caption: "방콕! 곧 만나🩵",
-   date: "2026.08.29"
+   date: "2026.08.29",
+   music: "dori-밤(Night)"
   }, 
  { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-29.1.JPEG",
@@ -25,7 +26,8 @@ const posts = [
  { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-28.MP4"],
    caption: "서울🩵🩵",
-   date: "2026.08.28"
+   date: "2026.08.28",
+   music: "ATEEZ-BAD"
   },    
  { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-25.1.JPEG",
@@ -38,7 +40,8 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-25.8.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-25.9.JPEG"],
    caption: "Spes🤎",
-   date: "2026.08.25"
+   date: "2026.08.25",
+   music: "Jang Beom June-흔들리는 꽃들 속에서 네 샴푸향이 느껴진거야"
   }, 
  { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.1.JPEG",
@@ -49,7 +52,8 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.6.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.7.JPEG"],
    caption: "비하인드까지 예뻤던 날🤎",
-   date: "2026.08.24"
+   date: "2026.08.24",
+   music: "Taylor Swift-Paris"
   }, 
  { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-23.MP4"],
@@ -63,7 +67,8 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-22.4.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-22.5.JPEG"],
    caption: "곧 만나요🩵",
-   date: "2026.08.22"
+   date: "2026.08.22",
+   music: "JUNNY-TASTE"
   }, 
  { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-21.1.JPEG",
@@ -73,7 +78,8 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-21.5.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-21.6.JPEG"],
    caption: "ROCKINGZOO🐼🦁",
-   date: "2026.08.21"
+   date: "2026.08.21",
+   music: "Diseny,Shakira-Zoo"
   }, 
  { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-19.1.JPEG",
@@ -83,7 +89,8 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-19.5.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-19.6.JPEG"],
    caption: "🪞📸",
-   date: "2026.08.19"
+   date: "2026.08.19",
+   music: "Muse Petal-Love Times Forever"
   }, 
  { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-17.1.JPEG",
@@ -105,14 +112,16 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-14.9.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-14.10.JPEG"],
    caption: "XCrossOver🐾♥️",
-   date: "2026.08.14"
+   date: "2026.08.14",
+   music: "wave to earth-light"
   }, 
  { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-11.1.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-11.2.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-11.3.JPEG"],
    caption: "크게 보고싶은 사진 있어요?😋 (내픽은 이거)",
-   date: "2026.08.11"
+   date: "2026.08.11",
+   music: "죠지(GEORGE)-좋아해..(바른연애길잡이X죠지)"
   },
  { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-10.1.MP4",

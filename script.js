@@ -147,16 +147,12 @@ function updateLightbox() {
     img.className = 'lightbox-img';
     lightboxMedia.appendChild(img);
   }
-  const musicEl = document.getElementById('lightbox-music');
-if (musicEl) {
-  if (post.music) {
-    musicEl.textContent = '🎵 ' + post.music;
-    musicEl.style.display = 'inline-flex';
-  } else {
-    musicEl.textContent = '';
-    musicEl.style.display = 'none';
+    if (post.music) {
+    const badge = document.createElement('div');
+    badge.className = 'lightbox-music';
+    badge.textContent = '🎵 ' + post.music;
+    lightboxMedia.appendChild(badge);
   }
-}
 const counter = document.getElementById('lightbox-counter');
 if (counter) {
   if (post.items.length > 1) {

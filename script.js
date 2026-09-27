@@ -147,6 +147,16 @@ function updateLightbox() {
     img.className = 'lightbox-img';
     lightboxMedia.appendChild(img);
   }
+  const musicEl = document.getElementById('lightbox-music');
+if (musicEl) {
+  if (post.music) {
+    musicEl.textContent = '🎵 ' + post.music;
+    musicEl.style.display = 'inline-flex';
+  } else {
+    musicEl.textContent = '';
+    musicEl.style.display = 'none';
+  }
+}
 const counter = document.getElementById('lightbox-counter');
 if (counter) {
   if (post.items.length > 1) {

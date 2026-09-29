@@ -4,7 +4,7 @@ const posts = [
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-09.2.1.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-09.3.1.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-09.4.1.JPEG",
-           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-09.5.1.JPEG"
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-09.5.1.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-09.6.1.JPEG"],
    caption: "MARI DALGAR♥️🤎🤍",
    date: "2026.09.09",

@@ -43,7 +43,33 @@ const posts = [
    date: "2026.08.25",
    music: "Jang Beom June-흔들리는 꽃들 속에서 네 샴푸향이 느껴진거야"
   }, 
- { 
+  { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.1.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.2.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.3.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.4.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.5.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.6.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.7.1.JPEG", 
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.8.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.9.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.10.1.JPEG", 
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.11.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.12.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.13.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.14.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.15.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.16.1.JPEG"],
+   caption: "@superellechina\n많관부!!!!!",
+   date: "2026.08.24",
+   music: "jehoda-After the Rain"
+  }, 
+  { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.MP4"],
+   caption: "어떤 순간은 이유도 없이 오래 남는다\n@superellechina",
+   date: "2026.08.24"
+  },    
+  {
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.1.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.2.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-08-24.3.JPEG",

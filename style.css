@@ -387,18 +387,18 @@ body {
 }
 #lightbox-media {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .lightbox-music {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  z-index: 5;
+  position: static;
+  margin-top: 10px;
   color: #fff;
   font-size: 13px;
   font-weight: 600;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 6px 10px;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 6px 12px;
   border-radius: 999px;
-  max-width: 80%;
 }

@@ -1,4 +1,66 @@
 const posts = [
+{ 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-27.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-27.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-27.3.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-27.4.JPEG"],
+   caption: "창사하이🙌",
+   date: "2026.09.27",
+   music: "BIG Naughty(서동현)-In My Mood"
+  }, 
+   { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-26.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-26.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-26.3.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-26.4.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-26.5.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-26.6.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-26.7.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-26.8.JPEG"],
+   caption: "좋은 꿈꿔💕",
+   date: "2026.09.26",
+   music: "너드커넥션(Nerd Connection)-좋은 밤 좋은 꿈"
+  }, 
+   { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-25.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-25.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-25.3.MP4",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-25.4.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-25.5.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-25.6.JPEG"],
+   caption: "즐거운 연휴 보내세요💙",
+   date: "2026.09.25",
+   music: "존박-now. us, here"
+  }, 
+   { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-20.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-20.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-20.3.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-20.4.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-20.5.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-20.6.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-20.7.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-20.8.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-20.9.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-20.10.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-20.11.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-20.12.JPEG"],
+   caption: "Aarye🍏 비하인드",
+   date: "2026.09.20",
+   music: "에이티즈-WORK"
+  }, 
+   { 
+   items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-16.1.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-16.2.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-16.3.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-16.4.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-16.5.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-16.6.JPEG",
+           "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-16.7.JPEG"],
+   caption: "Jmoon 비하인드🤍",
+   date: "2026.09.16",
+   music: "LambC-Routine"
+  }, 
    { 
    items: ["https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-09.1.1.JPEG",
            "https://raw.githubusercontent.com/sikstagram/kimyoonsik_/main/2026-09-09.2.1.JPEG",
